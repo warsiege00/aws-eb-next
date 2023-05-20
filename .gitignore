@@ -36,5 +36,5 @@ next-env.d.ts
 
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
-!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.config.yml
 !.elasticbeanstalk/*.global.yml

@@ -1,0 +1,22 @@
+branch-defaults:
+  main:
+    environment: aws-eb-next-dev
+    group_suffix: null
+  environment-defaults:
+    aws-eb-next-dev:
+      branch: null
+      repository: null
+global:
+  application_name: aws-eb-next
+  branch: null
+  default_ec2_keyname: aws-eb
+  default_platform: Docker running on 64bit Amazon Linux 2
+  default_region: sa-east-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: eb-cli
+  repository: null
+  sc: git
+  workspace_type: Application
